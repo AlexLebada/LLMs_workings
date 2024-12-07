@@ -1,0 +1,16 @@
+# Virtual environment directories
+venv/
+for_github/
+env/
+.venv/
+env.bak/
+.env
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+test.py
+MONGO_CLIENT.py
