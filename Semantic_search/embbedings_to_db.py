@@ -7,7 +7,7 @@ from API_integration.MONGO_CLIENT import MONGO_DB_KEY
 
 cluster = MongoClient(MONGO_DB_KEY)
 db = cluster["LLM_work"]
-collection = db["test"]
+collection = db["embeddings"]
 
 
 def embeddings_to_db(column_name: str, file_name: str):
