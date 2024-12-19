@@ -13,4 +13,15 @@ __pycache__/
 *.pyd
 
 test.py
-MONGO_CLIENT.py
+API_integration/GENERAL_KEYS.py
+Getting_started_Llama/
+
+Llama_repo/
+Fine_tune/
+RAG/notes.txt
+RAG/local/cuda_check.py
+RAG/local/RAG_1_no_github.py
+RAG/cloud/test.py
+RAG/cloud/test2.py
+RAG/cloud/Haystack_Embedder_no_github.py
+other/

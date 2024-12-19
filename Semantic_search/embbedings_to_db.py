@@ -3,7 +3,7 @@ from API_integration.LLM_API import get_chatgpt_embedding
 from cosine_similarity_1d import calculate_1d_cosine_similarity
 import pandas as pd
 import ast
-from API_integration.MONGO_CLIENT import MONGO_DB_KEY
+from API_integration.GENERAL_KEYS import MONGO_DB_KEY
 
 cluster = MongoClient(MONGO_DB_KEY)
 db = cluster["LLM_work"]

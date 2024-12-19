@@ -1,10 +1,10 @@
-from LLM_API import get_chatgpt_embedding
+from API_integration.LLM_API import get_chatgpt_embedding
 from langchain_community.llms import LlamaCpp
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 llm = LlamaCpp(
-    model_path="models/llama-2-7b-chat.Q4_0.gguf",
+    model_path="../API_integration/models/llama-2-7b-chat.Q4_0.gguf",
     n_gpu_layers=40,
     n_batch=512,  # Batch size for model processing
     verbose=False,  # Enable detailed logging for debugging
