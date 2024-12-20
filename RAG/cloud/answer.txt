@@ -1,0 +1,52 @@
+The detailed answer is: 
+{'replies': ["A Keeper in Quidditch is responsible for guarding the team's goals and preventing the opposing team from scoring. They fly around the team's hoops and try to stop the Quaffle from getting through the hoops when the Chasers from the opposing team attempt to score."], 'meta': [{'model': 'gpt-4o-mini-2024-07-18', 'index': 0, 'finish_reason': 'stop', 'usage': {'completion_tokens': 53, 'prompt_tokens': 359, 'total_tokens': 412, 'completion_tokens_details': CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), 'prompt_tokens_details': PromptTokensDetails(audio_tokens=0, cached_tokens=0)}}]}
+
+Retriever Document 1:
+wo Beaters on each
+team -- the Weasley twins are ours -- it's their job to protect their
+side from the Bludgers and try and knock them toward the other team. So
+-- think you've got all that?"
+
+"Three Chasers try and score with the Quaffle; the Keeper
+==========
+
+Retriever Document 2:
+findor. I have to fly around our hoops and stop the other
+team from scoring."
+
+"Three Chasers, one Keeper," said Harry, who was determined to remember
+it all. "And they play with the Quaffle. Okay, got that. So what are
+they for?" He pointed at the t
+==========
+
+Retriever Document 3:
+f Magic has a job hushing them up, I can tell you.
+Our kind have to keep putting spells on Muggles who've spotted them, to
+make them forget."
+
+"So what on earths Hagrid up to?" said Hermione.
+
+When they knocked on the door of the gamekeeper's hut an 
+==========
+
+Retriever Document 4:
+ited. "So -- that's sort of like basketball on broomsticks with
+six hoops, isn't it?"
+
+"What's basketball?" said Wood curiously. "Never mind," said Harry
+quickly.
+
+"Now, there's another player on each side who's called the Keeper -I'm
+Keeper for Gryf
+==========
+
+Retriever Document 5:
+efore then if Snape
+hadn't been muttering a countercurse, trying to save you."
+
+"Snape was trying to save me?"
+
+"Of course," said Quirrell coolly. "\Why do you think he wanted to
+referee your next match? He was trying to make sure I didn't do it
+agai
+==========

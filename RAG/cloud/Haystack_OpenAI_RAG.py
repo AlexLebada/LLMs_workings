@@ -78,10 +78,13 @@ res=pipe.run({
     }
 }, include_outputs_from={"retriever", "llm"})
 
-print(res['llm'])
-for idx,doc in enumerate(res["retriever"]["documents"]):
-    print(f"Retriever Document {idx+1}:", doc.content)
+print(res['llm']['replies'])
+with open("answer.txt", "w", encoding="utf-8") as file:
+    file.write(f"The detailed answer is: \n{res['llm']}\n")
+    for idx,doc in enumerate(res["retriever"]["documents"]):
+        file.write(f"\nRetriever Document {idx+1}:\n{doc.content}\n")
+        file.write("=" * 10 + "\n")
 
 end_time = time.time()
-print("elapsed:", end_time - start_time)
+print("Time elapsed:", end_time - start_time)
 pipe.draw("rag-pipeline.png")
